@@ -1,0 +1,5 @@
+to run the flow with sequential order, you can run manually from your local using command `python data_flow.py` or you can use any tools for scheduler or put a crontab job in VM with same command. (just adjust the path file to your conditions)
+to run the flow in parallel order you can run manually from your local using `python parallel_data_flow.py` or you can use any tools for scheduler or put a crontab job in VM
+with same command. (just adjust the path file to your conditions)
+
+those scripts will run the sql files from dedicated/existing repo (in example, i using local device path). the running order will be set as needed from datawarehouse until datamart (including table order). attached the shot for the running order too.
